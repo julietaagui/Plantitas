@@ -1,0 +1,46 @@
+.tx-primary{
+    color: #93c485 !important;
+}
+.tx-titulo{
+    color: #397b57 !important;
+}
+
+.pr-3{
+    padding-right: 3rem;
+}
+
+.hover {
+    color: white;
+    transition: 0.5s ease; /* Definir la transición en el color */
+}
+
+.hover:hover {
+    color: #397b57 !important;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+
+.banner-img {
+    max-height: 400px; /* Ajusta este valor según la altura que prefieras */
+    object-fit: cover; /* Mantiene el contenido visible sin deformarlo */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+}
+
+.card-img-custom {
+    width: 100%; /* Ocupa todo el ancho de la tarjeta */
+    height: 300px; /* Ajusta la altura fija */
+    object-fit: cover; /* Recorta la imagen si es necesario, manteniendo proporciones */
+}
+  
+  

@@ -1,21 +1,20 @@
+
 export default function Banner(){
 
     return(
         <div>
-            <nav className="navbar bg-body-tertiary">
+            <nav className="navbar">
             <div className="container-fluid">
-                <a className="navbar-brand fs-4 poppins-medium tx-primary">Plantitas</a>
+                <a className="navbar-brand fs-3 poppins-medium tx-primary">Plantitas</a>
                 <ul className="nav justify-content-end pr-3">
                 <li className="nav-item">
-                    <a className="nav-link hover tx-primary" to="/plantas">Plantas</a>
+                    <a className="nav-link hover tx-primary" href="#info-section">Informacion</a>
                 </li>
                 <li className="nav-item">
-                    {/* Enlace a la tienda (Shop) */}
-                    <a className="nav-link hover tx-primary" to="/shop">Shop</a>
+                    <a className="nav-link hover tx-primary" href="#plantas-section">Plantas</a>
                 </li>
                 <li className="nav-item">
-                    {/* Enlace al perfil */}
-                    <a className="nav-link hover tx-primary" to="/perfil">Perfil</a>
+                    <a className="nav-link hover tx-primary" >Perfil</a>
                 </li>
                 </ul>
             </div>

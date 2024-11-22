@@ -13,4 +13,18 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+  <style>
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .scroll-text-wrapper {
+      animation: scroll 18s linear infinite;
+    }
+  </style>
 </html>

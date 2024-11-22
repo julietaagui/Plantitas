@@ -8,8 +8,8 @@ export default function Plantas({ data }) {
 
     return (
         <Fragment>
-            <div className="container">
-                <div className="row row-cols-1 row-cols-md-5 g-4">
+            <div id="plantas-section" className="container space">
+                <div className="row row-cols-1 row-cols-md-5 g-4 ">
                     {data.map((plant) => (
                         <div className="col" key={plant.id}>
                             <div className="card w-80">

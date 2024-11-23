@@ -118,3 +118,8 @@ html {
     border-color: #93c485;
     color: #93c485;
 }
+.img-custom{
+    width: 50%;
+    height: 80%;
+    border-radius: 80rem;
+}

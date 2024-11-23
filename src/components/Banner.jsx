@@ -11,10 +11,10 @@ export default function Banner(){
                     <a className="nav-link hover tx-primary" href="#info-section">Informacion</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link hover tx-primary" href="#plantas-section">Plantas</a>
+                    <a className="nav-link hover tx-primary" href="#consejos-section">Consejos</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link hover tx-primary" >Perfil</a>
+                    <a className="nav-link hover tx-primary" href="#plantas-section">Plantas</a>
                 </li>
                 </ul>
             </div>
